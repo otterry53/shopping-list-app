@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h4>My Shopping List <img src="http://www.thebagladylwr.com/wp/wp-content/uploads/2014/02/shopping-bag1.png" height="80px" width="80px"></h4>
+    </header>
+
+    <div class="content">
+        <select class="dropdown">
+            <option value="Category">Choose A Category</option>
+            <option value="Produce">Produce</option>
+            <option value="Meat-Deli">Meat/Deli</option>
+            <option value="Can-Jar">Can/Jar</option>
+            <option value="Dry-goods">Dry Goods</option>
+            <option value="Bread">Bread</option>
+            <option value="Pet">Pet</option>
+            <option value="Paper">Paper</option>
+            <option value="Cleaning">Cleaning</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Frozen">Frozen</option>
+            <option value="Personal">Personal</option>
+            <option value="Other">Other</option>
+        </select>
+        <div class="input-form">
+            <input type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
+            <button type="submit" id="addItem">+</button>            
+        </div> 
+    </div>    
+ 
+    <section class="container">
+        <div class="firstrow">
+            <div class="col-md-2">
+                <h5>Produce</h5></div>
+            <div class="col-md-2">
+                <h5>Meat/ Deli</h5></div>
+            <div class="col-md-2">
+                <h5>Canned/ Jar</h5></div>
+            <div class="col-md-2">
+                <h5>Dry Goods</h5></div>
+            <div class="col-md-2">
+                <h5>Frozen</h5></div>
+            <div class="col-md-2">
+                <h5>Dairy</h5></div>
+        </div>
+        <div class="secondrow">
+            <div class="col-md-2">
+                <h5>Bread</h5></div>
+            <div class="col-md-2">
+                <h5>Cleaning</h5></div>
+            <div class="col-md-2">
+                <h5>Paper</h5></div>
+            <div class="col-md-2">
+                <h5>Personal</h5></div>
+            <div class="col-md-2">
+                <h5>Pet</h5></div>
+            <div class="col-md-2">
+                <h5>Other</h5></div>
+        </div>
+    </section>
+    <div class="cart">
+         <img src="http://static.giantbomb.com/uploads/scale_small/1/13313/1065653-shopping_cart.jpg" height="90px" width="100px">
+        <h5>Got It!</h5>       
+        <button class="delete-all">Remove All</button> 
+    </div>
+
+
+    <footer>
+       
+    </footer>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
