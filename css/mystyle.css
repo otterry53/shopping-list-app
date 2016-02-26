@@ -83,6 +83,8 @@ header h4 {
 }
 
 .container {
+    margin-right: 20rem;
+    margin-left: 20rem;
     height: 45rem;
     width: 92rem;
     background-image: url(../images/grocerystore.image.jpg);
