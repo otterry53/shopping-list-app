@@ -18,7 +18,7 @@
             <option value="Category">Choose A Category</option>
             <option value="Produce">Produce</option>
             <option value="Meat-Deli">Meat/Deli</option>
-            <option value="Can-Jar">Can/Jar</option>
+            <option value="Can-Jar">Canned/Jar</option>
             <option value="Dry-goods">Dry Goods</option>
             <option value="Bread">Bread</option>
             <option value="Pet">Pet</option>
@@ -31,54 +31,236 @@
         </select>
         <div class="input-form">
             <input type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
-            <button type="submit" id="addItem">+</button>            
-        </div> 
-    </div>    
- 
-    <section class="container">
-        <div class="firstrow">
-            <div class="col-md-2">
-                <h5>Produce</h5></div>
-            <div class="col-md-2">
-                <h5>Meat/ Deli</h5></div>
-            <div class="col-md-2">
-                <h5>Canned/ Jar</h5></div>
-            <div class="col-md-2">
-                <h5>Dry Goods</h5></div>
-            <div class="col-md-2">
-                <h5>Frozen</h5></div>
-            <div class="col-md-2">
-                <h5>Dairy</h5></div>
+            <button type="submit" id="addItem">+</button>
         </div>
-        <div class="secondrow">
-            <div class="col-md-2">
-                <h5>Bread</h5></div>
-            <div class="col-md-2">
-                <h5>Cleaning</h5></div>
-            <div class="col-md-2">
-                <h5>Paper</h5></div>
-            <div class="col-md-2">
-                <h5>Personal</h5></div>
-            <div class="col-md-2">
-                <h5>Pet</h5></div>
-            <div class="col-md-2">
-                <h5>Other</h5></div>
-        </div>
-    </section>
-    <div class="cart">
-         <img src="http://extension.unh.edu/sites/default/files/images/food-health/shopping-cart.gif" height="90px" width="100px">
-        <h5>Got It!</h5>       
-        <button class="delete-all">Remove All</button> 
-    </div>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>Produce</h5>
+                    <ul>
+                        <li>&#1008 onions
+                            <input type="checkbox">
+                        </li>
+                        <li>&#1008 broccoli
+                            <input type="checkbox">
+                        </li>
+                        <li>&#1008 tomatoes
+                            <input type="checkbox">
+                        </li>
+                        <li>&#1008 asparagus
+                            <input type="checkbox">
+                        </li>
+                        <li>&#1008 bananas
+                            <input type="checkbox">
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-md-2 ">
+                    <h5>Meat/ Deli</h5>
+                    <li>&#1008 chicken br
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 ground turkey
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 smoked turkey
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 provolone
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Canned/ Jar</h5>
+                    <li> &#1008 tomato sauce
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 pickles
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 salsa
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Dry Goods</h5>
+                    <li>&#1008 pasta
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 oatmeal
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Frozen</h5>
+                    <li>&#1008 edamame
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 Morningstar
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 WW pizza
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 steamers
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 salmon burger
+                        <input type="checkbox">
+                    </li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Dairy</h5>
+                    <li>&#1008 milk
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 half 'n' half
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 eggs
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 butter
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 yogurt
+                        <input type="checkbox">
+                    </li>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-2 ">
+                    <h5>Bread</h5>
+                    <li>&#1008 ww bread
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Cleaning</h5>
+                    <li>&#1008 laundry deter
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 dish deter
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 Windex
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Paper</h5>
+                    <li>&#1008 paper towels
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 tissues
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 Ziploc gallon
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Personal</h5>
+                    <li>&#1008 shampoo
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 hair color
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 hand soap
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Pet</h5>
+                    <li>&#1008 food
+                        <input type="checkbox">
+                    </li>
+                    <li>&#1008 treats
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <div class="col-md-2 ">
+                    <h5>Other</h5>
+                    <li>&#1008 AAA batteries
+                        <input type="checkbox">
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+        </section>
+
+        <div class="cart ">
+            <!--   <img src="http://extension.unh.edu/sites/default/files/images/food-health/shopping-cart.gif " >-->
+            <img src="http://extension.unh.edu/sites/default/files/images/food-health/shopping-cart.gif " height="100px " width="100px " rotation="20deg ">
+            <h5>It's in the cart!</h5>
+            <div class="list ">
+                <div class="col-md-3 ">
+                    <ul>
+                        <li>garlic</li>
+                        <li>lettuce</li>
+                        <li>parmesan</li>
+                        <li>mayonnaise</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ">
+                    <ul>
+                        <li>tuna</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 " <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
 
 
-    <footer>
-       
-    </footer>
+                </div>
+                <button class="delete-all ">Remove All</button>
+            </div>
 
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
-    <script src="js/app.js"></script>
+            <script src="http://code.jquery.com/jquery.min.js "></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
+            <script src="js/app.js "></script>
 
 </body>
 
