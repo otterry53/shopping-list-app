@@ -105,9 +105,17 @@ header h4 {
     color: darkgreen;
 }
 
-.col-md-2 .li .checkbox {
-    background-color: white;
+.delete {
     float: right;
+    padding-left: 8px;
+    margin-right: -10px;
+    color: red;
+    background-color: transparent;
+}
+
+.checkbox {
+    float: right;
+    background-color: white;
     color: white;
 }
 
@@ -161,7 +169,7 @@ header h4 {
 .cart .list {
     margin-top: -14rem;
     margin-left: 12rem;
-    color: red;
+    color: darkgreen;
 }
 
 .cart img {
@@ -172,15 +180,15 @@ header h4 {
 
 .cart h5 {
     margin-left: 1rem;
-    color: red;
+    color: darkgreen;
     font-size: 16px;
 }
 
 .delete-all {
-    margin-top: 2rem;
+    margin-top: .25rem;
     margin-right: 1rem;
     float: right;
-    padding: .5rem 2rem;
+    padding: .2rem 2rem;
     border-radius: 5px;
     background-color: red;
     color: white;
