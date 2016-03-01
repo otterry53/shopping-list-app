@@ -42,159 +42,111 @@ body {
     (all the styles inside the < header > or < nav > tags)
 */
 
+.header-container {
+    width: auto;
+    height: 14rem;
+    background-color: lightyellow;
+}
+
 header h4 {
-    /*margin-top: -.rem;*/
-    margin-left: 9rem;
     text-align: right;
-    width: 97rem;
     color: darkgreen;
     text-transform: uppercase;
-    font-family: 'sans-serif';
-    margin-bottom: .5rem;
-    background-color: lightyellow;
 }
 
-
-/* Content styles (Main Module)
-    (all the styles inside the < sections > or < aside > tags)
-*/
-
-
-/*styles for area with dropdown and input form*/
-
-.content {
-    margin-left: 10rem;
-    height: 2rem;
-    width: 42rem;
-    padding-bottom: 4rem;
-}
-
-.content .input-form {
+.header-container .input-form,
+.dropdown {
+    width: 20%;
     height: 4rem;
-    width: 20rem;
-    padding: .8rem;
     border: 3px solid darkgreen;
     border-radius: 5px;
-    margin-top: -6rem;
-    float: left;
 }
 
-.content .dropdown {
-    padding: .2rem;
-    height: 4rem;
-    width: 20rem;
-    border: 3px solid darkgreen;
-    float: right;
-    margin-top: -6rem;
+.header-container .input-form {
+    padding-top: .7rem;
+    padding-left: 1rem;
+    margin-top: -2rem;
 }
 
-.container .input-form {
-    margin-top: -.2rem;
-    margin-left: -1rem;
-    padding-bottom: -3rem;
-    height: 4rem;
-    border-radius: 5px;
-    color: white;
-}
-
-.container #addItemValue {
-    border-radius: 2px;
-    text-align: center;
+.header-container #addItemValue {
     width: auto;
-    background-color: lightyellow;
+    background-color: white;
     color: darkgreen;
 }
 
-.delete {
+.header-container .dropdown {
     float: right;
-    padding-left: 8px;
-    margin-right: -10px;
-    color: red;
-    background-color: transparent;
+    margin-right: 65rem;
+    margin-top: -4rem;
 }
 
-.checkbox {
-    float: right;
-    background-color: white;
+
+/* Content styles (Main Module)(all the styles inside the < sections > or < aside > tags)
+*/
+
+.list-column-container {
+    width: auto;
+    height: 48rem;
+    background-color: mediumseagreen;
+    /*background-image: url(../images/reusable-grocery-bags.jpg);*/
+    /*background-image: url(../images/grocerystore.image.jpg);*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.list-column-row {
+    height: 50%;
+}
+
+.list-column {
+    height: 24rem;
+    text-align: left;
     color: white;
 }
 
-.col-md-2 li {
+.list-column h5 {
+    font-size: 18px;
+    color: darkgreen;
+}
+
+.list-column li {
     list-style-type: none;
     text-align: left;
     color: white;
 }
 
-
-/*styles for main part of shopping list*/
-
-.container {
-    height: 45rem;
-    width: 92rem;
-    background-color: mediumseagreen;
-    /*background-image: url(../images/reusable-grocery-bags.jpg);*/
-    /*background-image: url(../images/grocerystore.image.jpg);*/
-    background-repeat: no-repeat;
-    background-size: cover;
+.checked {
+    text-decoration: line-through;
+    color: red !important;
 }
 
-.container .row {
-    height: 49.5%;
-    width: 100%;
+.list-column .delete {
+    float: right;
+    padding-left: 8px;
+    color: red;
+    background-color: transparent;
 }
 
-.col-md-2 {
-    height: 22.8rem;
-    text-align: left;
+.list-column .checkbox {
+    float: right;
+    background-color: white;
     color: white;
-    border: 1px solid white;
-}
-
-.col-md-2 h5 {
-    font-size: 18px;
-    color: darkgreen;
 }
 
 
-/*styles for bottom area where checked-off items go*/
-
-.cart {
-    width: 97rem;
-    height: 14.5rem;
-    border: 1px solid red;
-    margin-right: 8rem;
-    background-color: lightyellow;
-}
-
-.cart .list {
-    margin-top: -14rem;
-    margin-left: 12rem;
-    color: darkgreen;
-}
-
-.cart img {
-    transform: rotate(12deg);
-    margin-top: 8px;
-    margin-left: 12px;
-}
-
-.cart h5 {
-    margin-left: 1rem;
-    color: darkgreen;
-    font-size: 16px;
-}
+/*styles for footer*/
 
 .delete-all {
-    margin-top: .25rem;
-    margin-right: 1rem;
+    margin-top: .3rem;
+    margin-right: 4rem;
     float: right;
-    padding: .2rem 2rem;
+    padding: .5rem 3rem;
     border-radius: 5px;
     background-color: red;
     color: white;
 }
 
-/
+
 /* Responsive styles
 (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */

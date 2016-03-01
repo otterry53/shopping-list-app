@@ -1,15 +1,9 @@
-//target .input-form or #addItemValue?
-$("input-form").mousenter {
+$(document).ready(function () {
+    $('.header-container .input-form').
 
 
 })
-.mouseleave {
 
-
-})
-.mousedown {
-
-}
 
 
 
