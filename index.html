@@ -10,26 +10,34 @@
 
 <body>
     <header class="container header-container">
-        <h4>My Shopping List <img src="http://www.thebagladylwr.com/wp/wp-content/uploads/2014/02/shopping-bag1.png" height="80px" width="80px"></h4>
-        <div class="input-form">
-            <input type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
-            <button type="submit" id="addItem">+</button>
+        <div class="row">
+            <div class="col-md-3 col-xs-6">
+
+                <input class="input-form col-xs-10" type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
+                <button class="btn btn-sm btn-warning col-xs-1 col-xs-offset-1" type="submit" id="addItem">+</button>
+
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <select class="dropdown col-xs-11 col-xs-offset-1">
+                    <option value="category">Choose A Category</option>
+                    <option value="produce">Produce</option>
+                    <option value="meat-deli">Meat/Deli</option>
+                    <option value="canned-jar">Canned/Jar</option>
+                    <option value="dry-goods">Dry Goods</option>
+                    <option value="bread">Bread</option>
+                    <option value="pet">Pet</option>
+                    <option value="paper">Paper</option>
+                    <option value="cleaning">Cleaning</option>
+                    <option value="dairy">Dairy</option>
+                    <option value="frozen">Frozen</option>
+                    <option value="personal">Personal</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="col-md-6 col-xs-12 shopping-list-logo">
+                <h4>My Shopping List<img src="http://www.thebagladylwr.com/wp/wp-content/uploads/2014/02/shopping-bag1.png" height="80px" width="80px"></h4>
+            </div>
         </div>
-        <select class="dropdown">
-            <option value="Category">Choose A Category</option>
-            <option value="Produce">Produce</option>
-            <option value="Meat-Deli">Meat/Deli</option>
-            <option value="Can-Jar">Canned/Jar</option>
-            <option value="Dry-goods">Dry Goods</option>
-            <option value="Bread">Bread</option>
-            <option value="Pet">Pet</option>
-            <option value="Paper">Paper</option>
-            <option value="Cleaning">Cleaning</option>
-            <option value="Dairy">Dairy</option>
-            <option value="Frozen">Frozen</option>
-            <option value="Personal">Personal</option>
-            <option value="Other">Other</option>
-        </select>
     </header>
 
     <section class="container list-column-container">
@@ -137,7 +145,7 @@
                 <h5>Dairy</h5>
                 <li>
                     <button class="delete">X</button>milk
-                    <input type="checkbox" class="checkbox">
+                    <input type="checkbox" class="checkbox ">
                 </li>
                 <li>
                     <button class="delete">X</button>half'n'half
@@ -145,7 +153,7 @@
                 </li>
                 <li>
                     <button class="delete">X</button>eggs
-                    <input type="checkbox" class="checkbox">
+                    <input type="checkbox" class="checkbox ">
                 </li>
                 <li>
                     <button class="delete">X</button>butter
@@ -250,12 +258,13 @@
     </section>
 
     <footer>
-        <button class="delete-all">Remove All</button>
+        <button class="delete-all btn btn-danger">Remove All</button>
+        </div>
     </footer>
 
-    <script src="http://code.jquery.com/jquery.min.js "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
-    <script src="js/app.js "></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
