@@ -11,31 +11,31 @@
 <body>
     <header class="container header-container">
         <div class="row">
-            <div class="col-md-3 col-xs-6">
-
-                <input class="input-form col-xs-10" type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
-                <button class="btn btn-sm btn-warning col-xs-1 col-xs-offset-1" type="submit" id="addItem">+</button>
-
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 logo-container">
+                <img class="col-xs-3" src="http://www.thebagladylwr.com/wp/wp-content/uploads/2014/02/shopping-bag1.png">
+                <h4 class="col-xs-9">My Shopping List</h4>
             </div>
-            <div class="col-md-3 col-xs-6">
-                <select class="dropdown col-xs-11 col-xs-offset-1">
-                    <option value="category">Choose A Category</option>
-                    <option value="produce">Produce</option>
-                    <option value="meat-deli">Meat/Deli</option>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12 input-boxes">
+                <input class="input-form col-xs-4" type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
+
+                <select class="dropdown col-xs-5 col-xs-offset-1">
+                    <option value="category" selected>Choose A Category</option>
+                    <option value="bread-bakery">Bread/Bakery</option>
                     <option value="canned-jar">Canned/Jar</option>
-                    <option value="dry-goods">Dry Goods</option>
-                    <option value="bread">Bread</option>
-                    <option value="pet">Pet</option>
-                    <option value="paper">Paper</option>
                     <option value="cleaning">Cleaning</option>
                     <option value="dairy">Dairy</option>
+                    <option value="dry-goods">Dry Goods</option>
                     <option value="frozen">Frozen</option>
+                    <option value="meat-deli">Meat/Deli</option>
+                    <option value="paper">Paper</option>
                     <option value="personal">Personal</option>
+                    <option value="pet">Pet</option>
+                    <option value="produce">Produce</option>
                     <option value="other">Other</option>
                 </select>
-            </div>
-            <div class="col-md-6 col-xs-12 shopping-list-logo">
-                <h4>My Shopping List<img src="http://www.thebagladylwr.com/wp/wp-content/uploads/2014/02/shopping-bag1.png" height="80px" width="80px"></h4>
+                <button class="btn btn-md btn-success col-xs-1 col-xs-offset-1" type="submit" id="addItem">+</button>
             </div>
         </div>
     </header>
@@ -43,223 +43,74 @@
     <section class="container list-column-container">
         <div class="row list-column-row">
             <div class="col-md-2 produce list-column">
-                <h5>Produce</h5>
-                <ul>
-                    <li class="checked">
-                        <button class="delete">X</button>onions
-                        <input type="checkbox" class="checkbox">
-                    </li>
-                    <li>
-                        <button class="delete">X</button> broccoli
-                        <input type="checkbox" class="checkbox">
-                    </li>
-                    <li>
-                        <button class="delete">X</button>tomatoes
-                        <input type="checkbox" class="checkbox">
-                    </li>
-                    <li>
-                        <button class="delete">X</button>asparagus
-                        <input type="checkbox" class="checkbox">
-                    </li>
-                    <li>
-                        <button class="delete">X</button>bananas
-                        <input type="checkbox" class="checkbox">
-                    </li>
+                <h5 class="col-xs-12">Produce</h5>
+                <ul class="col-xs-12">
+                    <!--<li>
+<input type="checkbox" class="checkbox"><button class="delete">X</button> </li>-->
                 </ul>
             </div>
             <div class="col-md-2 meat-deli list-column">
-                <h5>Meat/Deli</h5>
-                <li>
-                    <button class="delete">X</button> chicken breast
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>ground turkey
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>smoked turkey
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>provolone
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
+                <h5 class="col-xs-12">Meat/Deli</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 canned-jar list-column">
-                <h5>Canned/ Jar</h5>
-                <li>
-                    <button class="delete">X</button>tomato sauce
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>pickles
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>salsa
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Canned/Jar</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 dry-goods list-column">
-                <h5>Dry Goods</h5>
-                <li>
-                    <button class="delete">X</button>pasta
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>oatmeal
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Dry Goods</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 frozen list-column">
-                <h5>Frozen</h5>
-                <li>
-                    <button class="delete">X</button>edamame
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>Morningstar
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>WW pizza
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>steamer veggies
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>salmon burger
-                    <input type="checkbox" class="checkbox">
-                </li>
+                <h5 class="col-xs-12">Frozen</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 dairy list-column">
-                <h5>Dairy</h5>
-                <li>
-                    <button class="delete">X</button>milk
-                    <input type="checkbox" class="checkbox ">
-                </li>
-                <li>
-                    <button class="delete">X</button>half'n'half
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>eggs
-                    <input type="checkbox" class="checkbox ">
-                </li>
-                <li>
-                    <button class="delete">X</button>butter
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>yogurt
-                    <input type="checkbox" class="checkbox">
-                </li>
+                <h5 class="col-xs-12">Dairy</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
         </div>
         <div class="row list-column-row">
-            <div class="col-md-2 bread list-column">
-                <h5>Bread</h5>
-                <li>
-                    <button class="delete">X</button>whole wheat bread
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class="col-md-2 bread-bakery list-column">
+                <h5 class="col-xs-12">Bread/Bakery</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 cleaning list-column">
-                <h5>Cleaning</h5>
-                <li>
-                    <button class="delete">X</button>laundry deter
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>dish deter
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>Windex
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Cleaning</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 paper list-column">
-                <h5>Paper</h5>
-                <li>
-                    <button class="delete">X</button>paper towels
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>tissues
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>Ziploc gallon
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Paper</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 personal list-column">
-                <h5>Personal</h5>
-                <li>
-                    <button class="delete">X</button>shampoo
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>hair color
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>hand soap
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Personal</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 pet list-column">
-                <h5>Pet</h5>
-                <li>
-                    <button class="delete">X</button>dry food
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li>
-                    <button class="delete">X</button>treats
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Pet</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
             <div class="col-md-2 other list-column">
-
-                <h5>Other</h5>
-                <li>
-                    <button class="delete">X</button>AAA batteries
-                    <input type="checkbox" class="checkbox">
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <h5 class="col-xs-12">Other</h5>
+                <ul class="col-xs-12">
+                </ul>
             </div>
         </div>
     </section>
 
-    <footer>
-        <button class="delete-all btn btn-danger">Remove All</button>
-        </div>
+    <footer class="container">
+        <button class="col-xs-3 col-xs-offset-9 col-md-2 col-md-offset-10 delete-all btn btn-danger">Remove All</button>
     </footer>
 
     <script src="http://code.jquery.com/jquery.min.js"></script>
