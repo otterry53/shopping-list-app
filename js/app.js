@@ -17,63 +17,63 @@ function addItems() {
             //dynamically create one row inside the produce column
             var rowBreadBakery = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
             //add each row to the previous ones
-            $('.bread-bakery').append(rowBreadBakery);
+            $('.bread-bakery ul').append(rowBreadBakery);
             //empty the input box afer submit by resetting the value
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "canned-jar") {
             var rowCannedJar = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.canned-jar').append(rowCannedJar);
+            $('.canned-jar ul').append(rowCannedJar);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "cleaning") {
             var rowCleaning = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.cleaning').append(rowCleaning);
+            $('.cleaning ul').append(rowCleaning);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "dairy") {
             var rowDairy = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.dairy').append(rowDairy);
+            $('.dairy ul').append(rowDairy);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "dry-goods") {
             var rowDryGoods = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.dry-goods').append(rowDryGoods);
+            $('.dry-goods ul').append(rowDryGoods);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "frozen") {
             var rowFrozen = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.frozen').append(rowFrozen);
+            $('.frozen ul').append(rowFrozen);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "meat-deli") {
             var rowMeatDeli = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.meat-deli').append(rowMeatDeli);
+            $('.meat-deli ul').append(rowMeatDeli);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "paper") {
             var rowPaper = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.paper').append(rowPaper);
+            $('.paper ul').append(rowPaper);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "personal") {
             var rowPersonal = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.personal').append(rowPersonal);
+            $('.personal ul').append(rowPersonal);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "pet") {
             var rowPet = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.pet').append(rowPet);
+            $('.pet ul').append(rowPet);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else if (itemCategory == "produce") {
             var rowProduce = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.produce').append(rowProduce);
+            $('.produce ul').append(rowProduce);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         } else {
             var rowOther = $('<li><span class="list">' + itemValue + '</span><button class="delete">X</button><input type="checkbox" class="checkbox"></li>');
-            $('.other').append(rowOther);
+            $('.other ul').append(rowOther);
             itemValue = $('#addItemValue').val('');
             itemCategory = $('.dropdown').val("category");
         }
