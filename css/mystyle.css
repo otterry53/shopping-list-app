@@ -57,6 +57,10 @@ body {
     color: black;
 }
 
+.header-container .dropdown {
+    color: grey;
+}
+
 .header-container .shopping-list-logo {
     text-align: right;
 }
@@ -98,7 +102,7 @@ body {
 .list-column li {
     list-style-type: none;
     text-align: left;
-    color: white;
+    color: papayawhip;
 }
 
 .checked {
@@ -122,8 +126,12 @@ body {
 
 /*styles for footer*/
 
+p {
+    color: darkgreen;
+}
+
 .delete-all {
-    margin-top: .5rem;
+    margin-top: -2rem;
     padding: .5rem 3rem;
     border-radius: 5px;
     background-color: red;
