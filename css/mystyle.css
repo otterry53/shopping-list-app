@@ -84,25 +84,30 @@ body {
 }
 
 .list-column-row {
-    height: 26rem;
+    height: auto;
+    display: block;
+    clear: both;
 }
 
 .list-column {
     height: 26rem;
     text-align: left;
     color: white;
-    border: 1px solid darkgreen;
+    border: 1px solid green;
 }
 
 .list-column h5 {
     font-size: 18px;
     color: darkgreen;
+    text-align: left;
+    margin-left: -2rem;
+    /*padding-left: rem;*/
 }
 
 .list-column li {
     list-style-type: none;
     text-align: left;
-    color: papayawhip;
+    color: white;
 }
 
 .checked {
@@ -137,6 +142,3 @@ p {
     background-color: red;
     color: white;
 }
-
-
-/* Is the stuff below not necesary because of bootstrap?*/
