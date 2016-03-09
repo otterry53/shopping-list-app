@@ -84,7 +84,7 @@ body {
 }
 
 .list-column-row {
-    height: 26rem;
+    height: auto;
     display: block;
     clear: both;
 }
